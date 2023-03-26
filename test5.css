@@ -1,0 +1,169 @@
+* {
+				margin: 0;
+				padding: 0;
+}
+
+
+body {
+				
+				
+}
+
+
+.wrapper {
+				height: 100vh;
+				width: 100vw;
+				max-width: 1920px;
+				display: flex;
+				flex-direction: column;
+				
+}
+
+.header {
+				border: solid red;
+				flex: 1.5;
+				max-height: 100px;
+				
+}
+
+
+.header ul {
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				height: 100%;
+				nmargin-right: 3%;
+				
+				
+}
+
+.header li {
+				nmargin-right: 5%;
+				font-size: 2em;
+				
+				list-style-type: none;
+				
+}
+
+.header a {
+				padding: 30px;
+				border: solid blue;
+				
+				text-decoration: none;
+}
+
+
+.cont {
+				
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+				border: solid blue;
+				flex: 8;
+				display: flex;
+				justify-content: center;
+				overflow: hidden;
+}
+
+.footer {
+				border: solid green;
+				flex: 0.5;
+}
+
+
+.content {
+				width: 80%;
+				border: solid magenta;
+				display: flex;
+				flex-direction: column;
+				
+}
+
+
+.ctitle {
+				border: solid black;
+				flex: 1.5;
+}
+
+.cpicker {
+				border: solid salmon;
+				flex: 2;
+				display: flex;
+				flex-direction: row;
+				overflow: scroll;
+}
+
+.carticle {
+				border: solid mediumspringgreen;
+				flex: 10;
+				overflow: hidden;
+}
+
+.gadgets {
+				background: blue;
+				border: solid black;
+				width: 150px;
+				min-width: 150px;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+						
+				
+}
+
+.gadgets a {
+				color: white;
+}
+
+
+.gadgetcon {
+				noverflow: hidden;
+				nheight: 100%;
+				height: 768px;
+}
+
+
+
+#one {
+				font-size: 55px;
+				text-align: center;
+				border: solid red;
+				background-color: red;
+				margin-bottom: 500px;
+}
+
+#two {
+				font-size: 55px;
+				text-align: center;
+				border: solid red;
+				background-color: blue;
+				margin-bottom: 500px;
+}
+
+#three {
+				font-size: 55px;
+				text-align: center;
+				border: solid red;
+				background-color: khaki;
+				margin-bottom: 500px;
+}
+
+#four {
+				font-size: 55px;
+				text-align: center;
+				border: solid red;
+				background-color: indianred;
+				margin-bottom: 500px;
+}
